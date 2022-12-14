@@ -2,7 +2,7 @@ package com.example.steps;
 
 import io.cucumber.java.en.And;
 
-public class PayVa {
+public class PayVaSteps {
     @And("click opsi BNI VA")
     public void clickOpsiBNIVA() {
     }

@@ -1,4 +1,4 @@
 package com.example.app.page.pay;
 
-public class payBank {
+public class PayBankPage {
 }

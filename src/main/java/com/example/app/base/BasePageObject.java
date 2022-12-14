@@ -22,6 +22,19 @@ public class BasePageObject {
         return (AndroidElement) onWait().until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
+    public void click(By locator){
+        AndroidElement elm = find(locator);
+        elm.click();
+    }
+    public void inputText(By locator, String input){
+        AndroidElement elm = find(locator);
+        elm.sendKeys(input);
+    }
+
+    public void isDisplayed(By locator){
+        AndroidElement elm = find(locator);
+        elm.isDisplayed();
+    }
 
 
 }

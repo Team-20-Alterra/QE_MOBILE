@@ -4,7 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class PayBank {
+public class PayBankSteps {
     @When("click status Menunggu Konfirmasi")
     public void clickStatusMenungguKonfirmasi() {
     }

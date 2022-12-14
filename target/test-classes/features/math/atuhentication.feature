@@ -15,10 +15,10 @@ Feature: Authentication
   | fullname   | notelp  | email | pass    | result     |
   | akun20     | 12345   | akun  | akun201 | can regis  |
   |            |         |       |         | cant regis |
-  |            | 12345   | akun  | akun201 | error fullname |
-  | akun20     |         | akun  | akun201 | error notelp |
-  | akun20     | 12345   |       | akun201 | error email |
-  | akun20     | 12345   | akun  |         | error pass |
+  |            | 12345   | akun  | akun201 | cant regis |
+  | akun20     |         | akun  | akun201 | cant regis |
+  | akun20     | 12345   |       | akun201 | cant regis |
+  | akun20     | 12345   | akun  |         | cant regis |
 
 # Scenario Outline: Auth Login
 #   Given i open the app
