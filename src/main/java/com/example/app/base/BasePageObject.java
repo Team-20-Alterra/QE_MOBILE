@@ -36,5 +36,9 @@ public class BasePageObject {
         elm.isDisplayed();
     }
 
+    public void inputImg(By locator, String jpg){
+        AndroidElement elm = find(locator);
+        elm.sendKeys(jpg);
+    }
 
 }

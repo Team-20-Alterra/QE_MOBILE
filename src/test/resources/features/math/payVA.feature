@@ -11,7 +11,7 @@ Feature: Pay Transaksi with Virtual Akun
     When click status Menunggu Konfirmasi
     And click button pay now
     And click button Yakin
-    And click button Rekening Bank
+    And click button Virtual Akun
     And click opsi BNI VA
     And click button lanjutkan
     And click kirim bukti bayar
@@ -27,7 +27,7 @@ Feature: Pay Transaksi with Virtual Akun
     When click status Menunggu Konfirmasi
     And click button pay now
     And click button Yakin
-    And click button Rekening Bank
+    And click button Virtual Akun
     And click opsi BCA VA
     And click button lanjutkan
     And click kirim bukti bayar
@@ -43,7 +43,7 @@ Feature: Pay Transaksi with Virtual Akun
     When click status Menunggu Konfirmasi
     And click button pay now
     And click button Yakin
-    And click button Rekening Bank
+    And click button Virtual Akun
     And click opsi BRI VA
     And click button lanjutkan
     And click kirim bukti bayar
@@ -59,7 +59,7 @@ Feature: Pay Transaksi with Virtual Akun
     When click status Menunggu Konfirmasi
     And click button pay now
     And click button Yakin
-    And click button Rekening Bank
+    And click button Virtual Akun
     And click opsi Mandiri VA
     And click button lanjutkan
     And click kirim bukti bayar
@@ -75,7 +75,7 @@ Feature: Pay Transaksi with Virtual Akun
     When click status Menunggu Konfirmasi
     And click button pay now
     And click button Yakin
-    And click button Rekening Bank
+    And click button Virtual Akun
     And click opsi CIMB VA
     And click button lanjutkan
     And click kirim bukti bayar

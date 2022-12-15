@@ -9,23 +9,31 @@ Feature: Authentication
     And i am on the login page
     And i click link buat sekarang
     When I input "<fullname>" fullname, "<notelp>" telp, "<email>" email, dan "<pass>" pass
+    And click ckls syarat
     And click buat akun
     Then I get "<result>" result
-  Examples:
-  | fullname   | notelp  | email | pass    | result     |
-  | akun20     | 12345   | akun  | akun201 | can regis  |
-  |            |         |       |         | cant regis |
-  |            | 12345   | akun  | akun201 | error fullname |
-  | akun20     |         | akun  | akun201 | error notelp |
-  | akun20     | 12345   |       | akun201 | error email |
-  | akun20     | 12345   | akun  |         | error pass |
+    Examples:
+  | fullname   | notelp  | email             | pass    | result         |
+  | akunku     | 12345   | akun20@mail.com  | akun201 | can regis      |
+  |            |         |                   |         | cant regis     |
+  |            | 12345   | akun20@mail.com  | akun201 | error fullname |
+  | akunku     |         | akun20@mail.com  | akun201 | error notelp   |
+  | akunku     | 12345   |                   | akun201 | error email    |
+  | akunku     | 12345   | akun20@mail.com  |         | error pass     |
 
 # Scenario Outline: Auth Login
-#   Given i open the app
+#   Given i open app
 #   And i am on the login page
 #   When input "<email>" email, "<pass>" password
 #   And click button masuk
 #   Then i can login
 #   Examples:
 #   | email  | pass  |
-#   | abc@mail.com | kelp20a |
+#   | akun20@mail.com  | akun201  |
+#   | akun20@mail.com  | akun20   |
+#   | akun20@mail.com  |          |
+#   | akun19@mail.com  | akun201  |
+#   | akun19@mail.com  | akun20   |
+#   | akun19@mail.com  |          |
+#   |                  | akun201  |
+#   |                  |          |

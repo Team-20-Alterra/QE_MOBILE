@@ -1,5 +1,5 @@
+com\example\app\page\bill\BillPage.class
 com\example\app\page\auth\RegisterPage.class
-com\example\app\page\bill\BilPage.class
 com\example\app\drivers\AndroidDriverInit.class
 com\example\app\page\pay\PayVAPage.class
 com\example\app\base\BasePageObject.class

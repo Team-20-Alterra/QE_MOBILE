@@ -8,7 +8,8 @@ Feature: Pay Transaksi with Rek Bank
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi
-    When click status Menunggu Konfirmasi
+    When filtered status Menunggu Konfirmasi
+    And click status Menunggu Konfirmasi
     And click button pay now
     And click button Yakin
     And click button Rekening Bank
@@ -24,7 +25,8 @@ Feature: Pay Transaksi with Rek Bank
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi
-    When click status Menunggu Konfirmasi
+    When filtered status Menunggu Konfirmasi
+    And click status Menunggu Konfirmasi
     And click button pay now
     And click button Yakin
     And click button Rekening Bank
@@ -40,7 +42,8 @@ Feature: Pay Transaksi with Rek Bank
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi
-    When click status Menunggu Konfirmasi
+    When filtered status Menunggu Konfirmasi
+    And click status Menunggu Konfirmasi
     And click button pay now
     And click button Yakin
     And click button Rekening Bank
@@ -56,7 +59,8 @@ Feature: Pay Transaksi with Rek Bank
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi
-    When click status Menunggu Konfirmasi
+    When filtered status Menunggu Konfirmasi
+    And click status Menunggu Konfirmasi
     And click button pay now
     And click button Yakin
     And click button Rekening Bank
@@ -72,7 +76,8 @@ Feature: Pay Transaksi with Rek Bank
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi
-    When click status Menunggu Konfirmasi
+    When filtered status Menunggu Konfirmasi
+    And click status Menunggu Konfirmasi
     And click button pay now
     And click button Yakin
     And click button Rekening Bank
@@ -88,7 +93,8 @@ Feature: Pay Transaksi with Rek Bank
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi
-    When click status Menunggu Konfirmasi
+    When filtered status Menunggu Konfirmasi
+    And click status Menunggu Konfirmasi
     And click button pay now
     And click button Yakin
     And click button Rekening Bank
@@ -104,7 +110,8 @@ Feature: Pay Transaksi with Rek Bank
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi
-    When click status Menunggu Konfirmasi
+    When filtered status Menunggu Konfirmasi
+    And click status Menunggu Konfirmasi
     And click button pay now
     And click button Yakin
     And click button Rekening Bank
