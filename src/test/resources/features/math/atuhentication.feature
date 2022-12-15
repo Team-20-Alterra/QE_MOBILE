@@ -14,12 +14,20 @@ Feature: Authentication
     Then I get "<result>" result
     Examples:
   | fullname   | notelp  | email             | pass    | result         |
-  | akunku     | 12345   | akun20@mail.com  | akun201 | can regis      |
-  |            |         |                   |         | cant regis     |
-  |            | 12345   | akun20@mail.com  | akun201 | error fullname |
-  | akunku     |         | akun20@mail.com  | akun201 | error notelp   |
-  | akunku     | 12345   |                   | akun201 | error email    |
-  | akunku     | 12345   | akun20@mail.com  |         | error pass     |
+#  | akunku     | 12345   | akun201@mail.com  | akun201 | can regis      |
+  |            |            |                   |         | cant regis     |
+  |            | 12345678   | akun20@mail.com  | akun201 | error fullname |
+  |            |            | akun20@mail.com  | akun201 | error notelp   |
+  |            |            |                  | akun201 | error email    |
+  | akunku     |            | akun20@mail.com  | akun201 | error notelp   |
+  | akunku     |            |                  | akun201 | error notelp   |
+  | akunku     |            |                  |         | error email    |
+  | akunku     | 12345678   |                  | akun201 | error email    |
+  | akunku     | 12345678   |                  |         | error pass     |
+  |            | 12345678   |                  |         | error fullname |
+  | akunku     | 12345678   | akun20@mail.com  |         | error pass     |
+
+
 
 # Scenario Outline: Auth Login
 #   Given i open app

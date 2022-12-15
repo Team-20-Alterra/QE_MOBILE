@@ -1,6 +1,6 @@
 package com.example.steps;
 
-import com.example.app.page.pay.PayVAPage;
+import com.example.app.page.PayVAPage;
 import io.cucumber.java.en.And;
 
 public class PayVaSteps {

@@ -1,6 +1,6 @@
 package com.example.steps;
 
-import com.example.app.page.pay.PayBankPage;
+import com.example.app.page.PayBankPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

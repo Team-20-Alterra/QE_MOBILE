@@ -1,15 +1,15 @@
 package com.example.steps;
 
-import com.example.app.page.auth.LoginPage;
-import com.example.app.page.auth.RegisterPage;
+import com.example.app.page.AuthLoginPage;
+import com.example.app.page.AuthRegisterPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class AuthSteps {
-    RegisterPage registerPage = new RegisterPage();
-    LoginPage loginPage = new LoginPage();
+    AuthRegisterPage registerPage = new AuthRegisterPage();
+    AuthLoginPage loginPage = new AuthLoginPage();
 
     @Given("i open app")
     public void iOpenApp() {
@@ -45,23 +45,24 @@ public class AuthSteps {
 
     @Then("I get {string} result")
     public void iGetResult(String result) {
-        if(result == "can regis"){
-
-        }
-        else if(result == "cant regis"){
-            registerPage.setErrFName();
-        }
-        else if (result == "error fullname"){
-            registerPage.setErrFName();
-        }
-        else if (result == "error notelp"){
-            registerPage.setErrNoTelp();
-        }
-        else if (result == "error email"){
-            registerPage.setErrEmail();
-        }
-        else if (result == "error pass"){
-            registerPage.setErrPass();
+        switch (result){
+            case "can regis":
+                break;
+            case "cant regis":
+                registerPage.setErrFName();
+                break;
+            case "error fullname":
+                registerPage.setErrFName();
+                break;
+            case "error notelp":
+                registerPage.setErrNoTelp();
+                break;
+            case "error email":
+                registerPage.setErrEmail();
+                break;
+            case "error pass":
+                registerPage.setErrPass();
+                break;
         }
     }
 

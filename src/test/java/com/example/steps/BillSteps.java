@@ -1,16 +1,16 @@
 package com.example.steps;
 
-import com.example.app.page.auth.LoginPage;
-import com.example.app.page.auth.RegisterPage;
-import com.example.app.page.bill.BillPage;
+import com.example.app.page.AuthLoginPage;
+import com.example.app.page.AuthRegisterPage;
+import com.example.app.page.BillPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class BillSteps {
-    RegisterPage registerPage = new RegisterPage();
-    LoginPage loginPage = new LoginPage();
+    AuthRegisterPage registerPage = new AuthRegisterPage();
+    AuthLoginPage loginPage = new AuthLoginPage();
     BillPage billPage = new BillPage();
 
     @Given("i haved login")

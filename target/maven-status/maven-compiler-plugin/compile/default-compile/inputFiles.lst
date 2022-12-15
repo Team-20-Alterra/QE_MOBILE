@@ -1,7 +1,7 @@
-D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\pay\PayBankPage.java
-D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\auth\RegisterPage.java
-D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\auth\LoginPage.java
+D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\PayBankPage.java
+D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\BillPage.java
+D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\PayVAPage.java
 D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\base\BasePageObject.java
 D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\drivers\AndroidDriverInit.java
-D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\bill\BillPage.java
-D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\pay\PayVAPage.java
+D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\AuthRegisterPage.java
+D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\AuthLoginPage.java

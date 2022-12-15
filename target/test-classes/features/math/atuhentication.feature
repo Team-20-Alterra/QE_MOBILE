@@ -14,7 +14,7 @@ Feature: Authentication
     Then I get "<result>" result
     Examples:
   | fullname   | notelp  | email             | pass    | result         |
-  | akunku     | 12345   | akun20@mail.com  | akun201 | can regis      |
+#  | akunku     | 12345   | akun201@mail.com  | akun201 | can regis      |
   |            |         |                   |         | cant regis     |
   |            | 12345   | akun20@mail.com  | akun201 | error fullname |
   | akunku     |         | akun20@mail.com  | akun201 | error notelp   |
