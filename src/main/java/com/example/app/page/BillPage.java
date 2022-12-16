@@ -19,7 +19,7 @@ public class BillPage extends BasePageObject {
     private By seeStatusMnungguKonfrm = MobileBy.AccessibilityId("");
     private By seeStatusBerhasil = MobileBy.AccessibilityId("");
 
-    public void setButtonBill(){click(buttonBill);}
+    public void clckButtonBill(){click(buttonBill);}
     public void setTabTransaksi(){click(tabTransaksi);}
     public void setTabSelesai(){click(tabSelesai);}
     public void setSeeAllTransak(){isDisplayed(seeAllTransak);}

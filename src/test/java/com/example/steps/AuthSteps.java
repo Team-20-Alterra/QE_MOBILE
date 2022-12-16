@@ -14,13 +14,14 @@ public class AuthSteps {
     @Given("i open app")
     public void iOpenApp() {
         registerPage.seeLandpage1();
+        registerPage.seeNext();
+        registerPage.seeNext();
+        registerPage.mulai();
     }
 
     @And("i am on the login page")
     public void iAmOnTheLoginPage() {
-        registerPage.seeNext();
-        registerPage.seeNext();
-        registerPage.mulai();
+        //ambil id login
     }
 
     @And("i click link buat sekarang")
@@ -47,6 +48,10 @@ public class AuthSteps {
     public void iGetResult(String result) {
         switch (result){
             case "can regis":
+                //isi bagian home
+                break;
+            case "can login" :
+                //isi bagian home
                 break;
             case "cant regis":
                 registerPage.setErrFName();
