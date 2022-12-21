@@ -1,6 +1,6 @@
-com\example\steps\PayBankSteps.class
-com\example\steps\PayVaSteps.class
+com\example\steps\PayInvoiceBankSteps.class
 com\example\acceptancetests\AcceptanceTestSuite.class
 com\example\steps\AuthSteps.class
+com\example\steps\StatusPay.class
 com\example\hook\AndroidDriverHook.class
-com\example\steps\BillSteps.class
+com\example\steps\PayInvoiceVaSteps.class

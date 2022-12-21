@@ -1,128 +1,34 @@
 -------------------------------------------------------------------------------
 Test set: com.example.acceptancetests.AcceptanceTestSuite
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 0, Errors: 15, Skipped: 0, Time elapsed: 254.492 s <<< FAILURE! - in com.example.acceptancetests.AcceptanceTestSuite
-Authentication.Authentication Register #5  Time elapsed: 26.714 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.601 s <<< FAILURE! - in com.example.acceptancetests.AcceptanceTestSuite
+Authentication.Authentication Login #1  Time elapsed: 1.705 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\test\resources\application\app-release.apk' does not exist or is not accessible
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '10.10.19.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: D:\TIC\Kampus Merdeka\MSIB\..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\MSIB\..., automationName: UIAutomator2, platformName: android, platformVersion: 12}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
-Session ID: 2a0d986e-7867-47ab-ba0a-242dcb20c313
-*** Element info: {Using=accessibility id, value=Lanjut}
-
-Authentication.Authentication Register #6  Time elapsed: 4.786 s  <<< ERROR!
-org.openqa.selenium.SessionNotCreatedException: 
-Unable to create a new remote session. Original error: unexpected end of stream on Connection{0.0.0.0:4723, proxy=DIRECT hostAddress=/0.0.0.0:4723 cipherSuite=none protocol=http/1.1}
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '10.10.19.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: driver.version: AndroidDriver
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: java.io.IOException: unexpected end of stream on Connection{0.0.0.0:4723, proxy=DIRECT hostAddress=/0.0.0.0:4723 cipherSuite=none protocol=http/1.1}
-Caused by: java.io.EOFException: \n not found: limit=0 content=…
-
-Authentication.Authentication Register #7  Time elapsed: 2.217 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Connection refused: connect
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\test\resources\application\app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (D:\user\Mobile\Appium-windows-1.21.0\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (D:\user\Mobile\Appium-windows-1.21.0\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '10.10.19.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: driver.version: AndroidDriver
-Caused by: java.net.ConnectException: Connection refused: connect
+	java.lang.NullPointerException: <no message>
 
-Authentication.Authentication Register #8  Time elapsed: 2.238 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Connection refused: connect
+Authentication.Authentication Login #2  Time elapsed: 0.682 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: The application at 'D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\test\resources\application\app-release.apk' does not exist or is not accessible
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '10.10.19.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: driver.version: AndroidDriver
-Caused by: java.net.ConnectException: Connection refused: connect
-
-Authentication.Authentication Register #9  Time elapsed: 2.107 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Connection refused: connect
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\test\resources\application\app-release.apk' does not exist or is not accessible
+    at getResponseForW3CError (D:\user\Mobile\Appium-windows-1.21.0\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (D:\user\Mobile\Appium-windows-1.21.0\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '10.10.19.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: driver.version: AndroidDriver
-Caused by: java.net.ConnectException: Connection refused: connect
-
-Authentication.Authentication Register #10  Time elapsed: 2.126 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Connection refused: connect
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '10.10.19.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: AndroidDriver
-Caused by: java.net.ConnectException: Connection refused: connect
-
-Authentication.Authentication Register #11  Time elapsed: 2.132 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Connection refused: connect
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '10.10.19.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: AndroidDriver
-Caused by: java.net.ConnectException: Connection refused: connect
-
-Authentication.Authentication Login #1  Time elapsed: 2.265 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Connection refused: connect
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '10.10.19.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: AndroidDriver
-Caused by: java.net.ConnectException: Connection refused: connect
-
-Authentication.Authentication Login #2  Time elapsed: 2.128 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Connection refused: connect
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '10.10.19.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: AndroidDriver
-Caused by: java.net.ConnectException: Connection refused: connect
-
-Authentication.Authentication Login #3  Time elapsed: 2.119 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Connection refused: connect
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '10.10.19.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: AndroidDriver
-Caused by: java.net.ConnectException: Connection refused: connect
-
-Authentication.Authentication Login #4  Time elapsed: 2.09 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Connection refused: connect
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '10.10.19.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: AndroidDriver
-Caused by: java.net.ConnectException: Connection refused: connect
-
-Authentication.Authentication Login #5  Time elapsed: 2.126 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Connection refused: connect
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '10.10.19.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: AndroidDriver
-Caused by: java.net.ConnectException: Connection refused: connect
-
-Authentication.Authentication Login #6  Time elapsed: 2.128 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Connection refused: connect
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '10.10.19.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: AndroidDriver
-Caused by: java.net.ConnectException: Connection refused: connect
-
-Authentication.Authentication Login #7  Time elapsed: 2.107 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Connection refused: connect
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '10.10.19.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: AndroidDriver
-Caused by: java.net.ConnectException: Connection refused: connect
-
-Authentication.Authentication Login #8  Time elapsed: 2.107 s  <<< ERROR!
-org.openqa.selenium.WebDriverException: 
-Connection refused: connect
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '10.10.19.66', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: AndroidDriver
-Caused by: java.net.ConnectException: Connection refused: connect
+	java.lang.NullPointerException: <no message>
 

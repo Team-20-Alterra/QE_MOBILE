@@ -10,16 +10,19 @@ public class AuthRegisterPage extends BasePageObject {
     private By landpageLnjt = MobileBy.AccessibilityId("Lanjut");
     private By mulaiBut = MobileBy.AccessibilityId("Mulai");
     private By linkRegis = MobileBy.AccessibilityId("Buat Sekarang");
-    private By inFullName = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]\n");
-    private By inNoTelp = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]\n");
-    private By inEmail = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[3]\n");
-    private By inPass = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[4]\n");
+    private By inFullName = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]");
+    private By inNoTelp = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]");
+    private By inEmail = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[3]");
+    private By inPass = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[4]");
     private By errFName = MobileBy.AccessibilityId("Enter at least 4 characters");
     private By errNoTelp = MobileBy.AccessibilityId("Enter min. 8 digit");
     private By errEmail = MobileBy.AccessibilityId("Enter a valid email");
     private By errPass = MobileBy.AccessibilityId("Enter min. 5 characters");
+    private By eyePass = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[4]/android.widget.Button");
     private By chcklst = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]");
     private By buatAkunButton = By.xpath("//android.widget.Button[@content-desc=\"Buat Akun\"]");
+    private By home = MobileBy.AccessibilityId("Hello, Ricky Riky4545");
+    private By login = MobileBy.AccessibilityId("LOGIN");
 
     public void seeLandpage1(){
         isDisplayed(landpage1);
@@ -43,6 +46,9 @@ public class AuthRegisterPage extends BasePageObject {
         click(inPass);
         inputText(inPass, pass);
     }
+    public void setHome(){isDisplayed(home);}
+    public void setLogin(){isDisplayed(login);}
+    public void setEyePass(){click(eyePass);}
     public void cklsSyarat(){
         click(chcklst);
     }

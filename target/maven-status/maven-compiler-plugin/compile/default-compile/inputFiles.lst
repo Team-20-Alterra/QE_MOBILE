@@ -1,7 +1,7 @@
-D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\PayBankPage.java
-D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\BillPage.java
-D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\PayVAPage.java
-D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\base\BasePageObject.java
-D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\drivers\AndroidDriverInit.java
-D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\AuthRegisterPage.java
-D:\TIC\Kampus Merdeka\MSIB\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\AuthLoginPage.java
+D:\TIC\Kampus Merdeka\Batch 3\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\payInvoiceVAPage.java
+D:\TIC\Kampus Merdeka\Batch 3\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\AuthRegisterPage.java
+D:\TIC\Kampus Merdeka\Batch 3\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\StatusPay.java
+D:\TIC\Kampus Merdeka\Batch 3\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\AuthLoginPage.java
+D:\TIC\Kampus Merdeka\Batch 3\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\base\BasePageObject.java
+D:\TIC\Kampus Merdeka\Batch 3\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\drivers\AndroidDriverInit.java
+D:\TIC\Kampus Merdeka\Batch 3\Studi Independen\Alterra\Capstone\AutoMobile\sample-mobile-automation\src\main\java\com\example\app\page\PayInvoiceBankPage.java

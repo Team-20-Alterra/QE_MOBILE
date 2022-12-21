@@ -21,7 +21,7 @@ public class AuthSteps {
 
     @And("i am on the login page")
     public void iAmOnTheLoginPage() {
-        //ambil id login
+        registerPage.setLogin();
     }
 
     @And("i click link buat sekarang")
@@ -48,10 +48,10 @@ public class AuthSteps {
     public void iGetResult(String result) {
         switch (result){
             case "can regis":
-                //isi bagian home
+                registerPage.setLogin();
                 break;
             case "can login" :
-                //isi bagian home
+                registerPage.setHome();
                 break;
             case "cant regis":
                 registerPage.setErrFName();
