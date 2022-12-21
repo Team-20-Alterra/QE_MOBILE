@@ -15,8 +15,8 @@ public class StatusPay {
     @Given("i haved login")
     public void iHavedLogin() {
         registerPage.seeLandpage1();
-        registerPage.seeNext();
-        registerPage.seeNext();
+        registerPage.seeNext1();
+        registerPage.seeNext2();
         registerPage.mulai();
         loginPage.setInEmail("");
         loginPage.setInPass("");;

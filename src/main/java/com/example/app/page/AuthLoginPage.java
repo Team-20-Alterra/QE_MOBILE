@@ -8,6 +8,7 @@ public class AuthLoginPage extends BasePageObject {
     private By inEmail = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[1]");
     private By inPass = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]");
     private By butMasuk = MobileBy.AccessibilityId("Masuk");
+    private By home = MobileBy.AccessibilityId("Artikel");
 
     public void setInEmail(String email){
         click(inEmail);
@@ -20,5 +21,6 @@ public class AuthLoginPage extends BasePageObject {
     public void clckButtonMasuk(){
         click(butMasuk);
     }
+    public void setHome(){isDisplayed(home);}
 
 }

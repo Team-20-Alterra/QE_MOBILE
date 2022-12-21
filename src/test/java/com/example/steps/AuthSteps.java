@@ -14,8 +14,8 @@ public class AuthSteps {
     @Given("i open app")
     public void iOpenApp() {
         registerPage.seeLandpage1();
-        registerPage.seeNext();
-        registerPage.seeNext();
+        registerPage.seeNext1();
+        registerPage.seeNext2();
         registerPage.mulai();
     }
 
@@ -51,7 +51,7 @@ public class AuthSteps {
                 registerPage.setLogin();
                 break;
             case "can login" :
-                registerPage.setHome();
+                loginPage.setHome();
                 break;
             case "cant regis":
                 registerPage.setErrFName();
@@ -77,14 +77,20 @@ public class AuthSteps {
         loginPage.setInPass(pass);
     }
 
+    @And("click {string} see pass")
+    public void clickSeePass(String seeEye) {
+        switch (seeEye){
+            case "see" :
+                registerPage.setEyePass();
+                break;
+            case "no see":
+                break;
+        }
+    }
+
     @And("click button masuk")
     public void clickButtonMasuk() {
         loginPage.clckButtonMasuk();
     }
-
-    @Then("i can login")
-    public void iCanLogin() {
-    }
-
 
 }
