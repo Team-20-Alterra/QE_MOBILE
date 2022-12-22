@@ -5,3 +5,4 @@ com\example\app\page\StatusPay.class
 com\example\app\page\AuthLoginPage.class
 com\example\app\drivers\AndroidDriverInit.class
 com\example\app\base\BasePageObject.class
+com\example\app\page\AuthLupaSandiPage.class

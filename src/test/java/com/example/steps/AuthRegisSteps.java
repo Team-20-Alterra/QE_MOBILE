@@ -1,20 +1,19 @@
 package com.example.steps;
 
-import com.example.app.page.AuthLoginPage;
 import com.example.app.page.AuthRegisterPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class AuthSteps {
+public class AuthRegisSteps {
     AuthRegisterPage registerPage = new AuthRegisterPage();
-    AuthLoginPage loginPage = new AuthLoginPage();
 
     @Given("i open app")
     public void iOpenApp() {
-        registerPage.seeLandpage1();
+        registerPage.seeGinap();
         registerPage.seeNext1();
+//        registerPage.setSeeLandPg2();
         registerPage.seeNext2();
         registerPage.mulai();
     }
@@ -34,9 +33,26 @@ public class AuthSteps {
         registerPage.inputData(fullname,notelp,email,pass);
     }
 
-    @And("click ckls syarat")
-    public void clickCklsSyarat() {
-        registerPage.cklsSyarat();
+    @And("click {string} see pass register")
+    public void clickSeePassRegister(String eyePass) {
+        switch (eyePass) {
+            case "see":
+                registerPage.setEyePass();
+                break;
+            case "no see":
+                break;
+        }
+    }
+
+    @And("click {string} ckls syarat")
+    public void clickCklsSyarat(String syrt) {
+        switch (syrt){
+            case "ckls":
+                registerPage.cklsSyarat();
+                break;
+            case "no ckls":
+                break;
+        }
     }
 
     @And("click buat akun")
@@ -44,14 +60,11 @@ public class AuthSteps {
         registerPage.clckButtonRegis();
     }
 
-    @Then("I get {string} result")
-    public void iGetResult(String result) {
+    @Then("I get {string} result register")
+    public void iGetResultRegister(String result) {
         switch (result){
             case "can regis":
-                registerPage.setLogin();
-                break;
-            case "can login" :
-                loginPage.setHome();
+                registerPage.setSuccesLogin();
                 break;
             case "cant regis":
                 registerPage.setErrFName();
@@ -68,29 +81,9 @@ public class AuthSteps {
             case "error pass":
                 registerPage.setErrPass();
                 break;
-        }
-    }
-
-    @When("input {string} email, {string} password")
-    public void inputEmailPassword(String email, String pass) {
-        loginPage.setInEmail(email);
-        loginPage.setInPass(pass);
-    }
-
-    @And("click {string} see pass")
-    public void clickSeePass(String seeEye) {
-        switch (seeEye){
-            case "see" :
-                registerPage.setEyePass();
-                break;
-            case "no see":
+            case "error regis":
+                registerPage.errRegis();
                 break;
         }
     }
-
-    @And("click button masuk")
-    public void clickButtonMasuk() {
-        loginPage.clckButtonMasuk();
-    }
-
 }

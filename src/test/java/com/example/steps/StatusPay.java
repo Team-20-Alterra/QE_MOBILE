@@ -14,12 +14,13 @@ public class StatusPay {
 
     @Given("i haved login")
     public void iHavedLogin() {
-        registerPage.seeLandpage1();
+        registerPage.seeGinap();
         registerPage.seeNext1();
+        registerPage.setSeeLandPg2();
         registerPage.seeNext2();
         registerPage.mulai();
-        loginPage.setInEmail("");
-        loginPage.setInPass("");;
+        loginPage.setInEmail("maylananggi@gmail.com");
+        loginPage.setInPass("password");
         loginPage.clckButtonMasuk();
     }
 

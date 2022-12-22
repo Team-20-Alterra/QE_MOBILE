@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-12-21T22:24:34.265Z",
+        "start_timestamp": "2022-12-22T17:20:45.958Z",
         "before": [
           {
             "result": {
-              "duration": 26571546000,
+              "duration": 38408863500,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 22,
+        "line": 19,
         "name": "Authentication Register",
         "description": "",
         "id": "authentication;authentication-register;;2",
         "after": [
           {
             "result": {
-              "duration": 813331900,
+              "duration": 797455300,
               "status": "passed"
             },
             "match": {
@@ -35,47 +35,394 @@
         "steps": [
           {
             "result": {
-              "duration": 11273378200,
+              "duration": 6686224300,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "i open app",
             "match": {
-              "location": "com.example.steps.AuthSteps.iOpenApp()"
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2281643000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "i am on the login page",
-            "match": {
-              "location": "com.example.steps.AuthSteps.iAmOnTheLoginPage()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 189858100,
+              "duration": 2405733700,
               "status": "passed"
             },
             "line": 10,
-            "name": "i click link buat sekarang",
+            "name": "i am on the login page",
             "match": {
-              "location": "com.example.steps.AuthSteps.iClickLinkBuatSekarang()"
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 6191333300,
+              "duration": 253371700,
               "status": "passed"
             },
             "line": 11,
-            "name": "I input \"\" fullname, \"\" telp, \"\" email, dan \"akun201\" pass",
+            "name": "i click link buat sekarang",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iClickLinkBuatSekarang()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7641137900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input \"akunku\" fullname, \"12345678\" telp, \"testing20@gmail.com\" email, dan \"password\" pass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"akunku\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"testing20@gmail.com\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 77
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iInputFullnameTelpEmailDanPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1101081100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click \"see\" see pass register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"see\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickSeePassRegister(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 747960800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click \"ckls\" ckls syarat",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ckls\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickCklsSyarat(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 301513100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click buat akun",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.clickBuatAkun()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1808592100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I get \"can regis\" result register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"can regis\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iGetResultRegister(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:21:46.513Z",
+        "before": [
+          {
+            "result": {
+              "duration": 25988661400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Authentication Register",
+        "description": "",
+        "id": "authentication;authentication-register;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 784166800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6598455000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2691781000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205399200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i click link buat sekarang",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iClickLinkBuatSekarang()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7646974600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input \"akunku\" fullname, \"12345678\" telp, \"testing20@gmail.com\" email, dan \"password\" pass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"akunku\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"testing20@gmail.com\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 77
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iInputFullnameTelpEmailDanPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1084731800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click \"see\" see pass register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"see\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickSeePassRegister(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 859571300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click \"ckls\" ckls syarat",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ckls\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickCklsSyarat(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154947300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click buat akun",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.clickBuatAkun()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2053989200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I get \"error regis\" result register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error regis\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iGetResultRegister(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:22:34.680Z",
+        "before": [
+          {
+            "result": {
+              "duration": 29928752200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Authentication Register",
+        "description": "",
+        "id": "authentication;authentication-register;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1149423100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11691794100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2726991000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149794600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i click link buat sekarang",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iClickLinkBuatSekarang()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MYLNAP\u0027, ip: \u0027192.168.34.45\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.16\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: D:\\TIC\\Kampus Merdeka\\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\\TIC\\Kampus Merdeka\\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}\nSession ID: c006d374-9c7a-4d07-aa43-171f13b0dec2\n*** Element info: {Using\u003dxpath, value\u003d/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText[1]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)\r\n\tat io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.find(BasePageObject.java:29)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.click(BasePageObject.java:33)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.page.AuthRegisterPage.inputData(AuthRegisterPage.java:47)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.AuthRegisSteps.iInputFullnameTelpEmailDanPass(AuthRegisSteps.java:33)\r\n\tat ✽.I input \"\" fullname, \"\" telp, \"\" email, dan \"\" pass(file:///D:/TIC/Kampus%20Merdeka/Batch%203/Studi%20Independen/Alterra/Capstone/AutoMobile/sample-mobile-automation/src/test/resources/features/math/atuhentication.feature:12)\r\n",
+              "duration": 2537938900,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "I input \"\" fullname, \"\" telp, \"\" email, dan \"\" pass",
             "match": {
               "arguments": [
                 {
@@ -91,71 +438,77 @@
                   "offset": 30
                 },
                 {
-                  "val": "\"akun201\"",
+                  "val": "\"\"",
                   "offset": 44
                 }
               ],
-              "location": "com.example.steps.AuthSteps.iInputFullnameTelpEmailDanPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+              "location": "com.example.steps.AuthRegisSteps.iInputFullnameTelpEmailDanPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1687063500,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "click \"see\" see pass",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"see\"",
-                  "offset": 6
-                }
-              ],
-              "location": "com.example.steps.AuthSteps.clickSeePass(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1414388100,
-              "status": "passed"
+              "duration": 3513600,
+              "status": "skipped"
             },
             "line": 13,
-            "name": "click ckls syarat",
-            "match": {
-              "location": "com.example.steps.AuthSteps.clickCklsSyarat()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 161547600,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "click buat akun",
-            "match": {
-              "location": "com.example.steps.AuthSteps.clickBuatAkun()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 855430000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I get \"error email\" result",
+            "name": "click \"no see\" see pass register",
             "match": {
               "arguments": [
                 {
-                  "val": "\"error email\"",
+                  "val": "\"no see\"",
                   "offset": 6
                 }
               ],
-              "location": "com.example.steps.AuthSteps.iGetResult(java.lang.String)"
+              "location": "com.example.steps.AuthRegisSteps.clickSeePassRegister(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3999000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "click \"no ckls\" ckls syarat",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no ckls\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickCklsSyarat(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3004000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "click buat akun",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.clickBuatAkun()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3113200,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I get \"cant regis\" result register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cant regis\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iGetResultRegister(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -163,15 +516,18 @@
         "tags": [
           {
             "name": "@Auth"
+          },
+          {
+            "name": "@Register"
           }
         ]
       },
       {
-        "start_timestamp": "2022-12-21T22:25:26.045Z",
+        "start_timestamp": "2022-12-22T17:23:22.971Z",
         "before": [
           {
             "result": {
-              "duration": 24020567300,
+              "duration": 28889690100,
               "status": "passed"
             },
             "match": {
@@ -179,14 +535,14 @@
             }
           }
         ],
-        "line": 23,
+        "line": 22,
         "name": "Authentication Register",
         "description": "",
-        "id": "authentication;authentication-register;;3",
+        "id": "authentication;authentication-register;;5",
         "after": [
           {
             "result": {
-              "duration": 919863600,
+              "duration": 861677000,
               "status": "passed"
             },
             "match": {
@@ -199,47 +555,566 @@
         "steps": [
           {
             "result": {
-              "duration": 11166227700,
+              "duration": 7361263200,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "i open app",
             "match": {
-              "location": "com.example.steps.AuthSteps.iOpenApp()"
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2809966500,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "i am on the login page",
-            "match": {
-              "location": "com.example.steps.AuthSteps.iAmOnTheLoginPage()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 163594300,
+              "duration": 2635622900,
               "status": "passed"
             },
             "line": 10,
-            "name": "i click link buat sekarang",
+            "name": "i am on the login page",
             "match": {
-              "location": "com.example.steps.AuthSteps.iClickLinkBuatSekarang()"
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 6272620900,
+              "duration": 691653600,
               "status": "passed"
             },
             "line": 11,
-            "name": "I input \"akunku\" fullname, \"\" telp, \"akun\" email, dan \"akun201\" pass",
+            "name": "i click link buat sekarang",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iClickLinkBuatSekarang()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7233493800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input \"\" fullname, \"12345678\" telp, \"testing20@gmail.com\" email, dan \"password\" pass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"testing20@gmail.com\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 71
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iInputFullnameTelpEmailDanPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 713195700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click \"see\" see pass register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"see\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickSeePassRegister(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 865503000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click \"ckls\" ckls syarat",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ckls\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickCklsSyarat(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248153900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click buat akun",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.clickBuatAkun()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1103165900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I get \"error fullname\" result register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error fullname\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iGetResultRegister(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:24:13.607Z",
+        "before": [
+          {
+            "result": {
+              "duration": 26341711100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Authentication Register",
+        "description": "",
+        "id": "authentication;authentication-register;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 897224600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7026058600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2313283100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229460200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i click link buat sekarang",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iClickLinkBuatSekarang()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6560887100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input \"\" fullname, \"\" telp, \"testing20@gmail.com\" email, dan \"password\" pass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"testing20@gmail.com\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 63
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iInputFullnameTelpEmailDanPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1612229000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click \"see\" see pass register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"see\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickSeePassRegister(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 327512000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click \"ckls\" ckls syarat",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ckls\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickCklsSyarat(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209597400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click buat akun",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.clickBuatAkun()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 607515200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I get \"error notelp\" result register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error notelp\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iGetResultRegister(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:24:59.765Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24681507900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Authentication Register",
+        "description": "",
+        "id": "authentication;authentication-register;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 880627300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9833878900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2489505400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255706100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i click link buat sekarang",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iClickLinkBuatSekarang()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6564577800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input \"\" fullname, \"\" telp, \"\" email, dan \"password\" pass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iInputFullnameTelpEmailDanPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 801206600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click \"see\" see pass register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"see\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickSeePassRegister(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1995100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click \"no ckls\" ckls syarat",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no ckls\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickCklsSyarat(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1312282200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click buat akun",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.clickBuatAkun()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120023700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I get \"error email\" result register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error email\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iGetResultRegister(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:25:46.728Z",
+        "before": [
+          {
+            "result": {
+              "duration": 25498745500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Authentication Register",
+        "description": "",
+        "id": "authentication;authentication-register;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 1073800300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10536961700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2492104300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233434600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i click link buat sekarang",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iClickLinkBuatSekarang()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7195613300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input \"akunku\" fullname, \"\" telp, \"testing20@gmail.com\" email, dan \"password\" pass",
             "match": {
               "arguments": [
                 {
@@ -251,25 +1126,25 @@
                   "offset": 27
                 },
                 {
-                  "val": "\"akun\"",
+                  "val": "\"testing20@gmail.com\"",
                   "offset": 36
                 },
                 {
-                  "val": "\"akun201\"",
-                  "offset": 54
+                  "val": "\"password\"",
+                  "offset": 69
                 }
               ],
-              "location": "com.example.steps.AuthSteps.iInputFullnameTelpEmailDanPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+              "location": "com.example.steps.AuthRegisSteps.iInputFullnameTelpEmailDanPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2607265700,
+              "duration": 1137936400,
               "status": "passed"
             },
-            "line": 12,
-            "name": "click \"see\" see pass",
+            "line": 13,
+            "name": "click \"see\" see pass register",
             "match": {
               "arguments": [
                 {
@@ -277,41 +1152,47 @@
                   "offset": 6
                 }
               ],
-              "location": "com.example.steps.AuthSteps.clickSeePass(java.lang.String)"
+              "location": "com.example.steps.AuthRegisSteps.clickSeePassRegister(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3114246300,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "click ckls syarat",
-            "match": {
-              "location": "com.example.steps.AuthSteps.clickCklsSyarat()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 193455600,
+              "duration": 999300,
               "status": "passed"
             },
             "line": 14,
-            "name": "click buat akun",
+            "name": "click \"no ckls\" ckls syarat",
             "match": {
-              "location": "com.example.steps.AuthSteps.clickBuatAkun()"
+              "arguments": [
+                {
+                  "val": "\"no ckls\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickCklsSyarat(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 584800200,
+              "duration": 763668600,
               "status": "passed"
             },
             "line": 15,
-            "name": "I get \"error notelp\" result",
+            "name": "click buat akun",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.clickBuatAkun()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 617949000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I get \"error notelp\" result register",
             "match": {
               "arguments": [
                 {
@@ -319,7 +1200,7 @@
                   "offset": 6
                 }
               ],
-              "location": "com.example.steps.AuthSteps.iGetResult(java.lang.String)"
+              "location": "com.example.steps.AuthRegisSteps.iGetResultRegister(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -327,6 +1208,2575 @@
         "tags": [
           {
             "name": "@Auth"
+          },
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:26:36.304Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24749134200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Authentication Register",
+        "description": "",
+        "id": "authentication;authentication-register;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 903901600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6508082000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2376465500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268076100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i click link buat sekarang",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iClickLinkBuatSekarang()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7478430600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input \"akunku\" fullname, \"\" telp, \"\" email, dan \"password\" pass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"akunku\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 50
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iInputFullnameTelpEmailDanPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1480894600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click \"see\" see pass register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"see\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickSeePassRegister(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 862352800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click \"ckls\" ckls syarat",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ckls\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickCklsSyarat(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 292432100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click buat akun",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.clickBuatAkun()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 535141300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I get \"error notelp\" result register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error notelp\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iGetResultRegister(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:27:21.782Z",
+        "before": [
+          {
+            "result": {
+              "duration": 25359212200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Authentication Register",
+        "description": "",
+        "id": "authentication;authentication-register;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 1030312000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6517442300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2755100800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155964200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i click link buat sekarang",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iClickLinkBuatSekarang()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7941699400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input \"akunku\" fullname, \"\" telp, \"\" email, dan \"\" pass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"akunku\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 50
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iInputFullnameTelpEmailDanPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1471000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click \"no see\" see pass register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no see\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickSeePassRegister(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1006300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click \"no ckls\" ckls syarat",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no ckls\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickCklsSyarat(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222301700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click buat akun",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.clickBuatAkun()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 544835400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I get \"error email\" result register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error email\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iGetResultRegister(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:28:06.335Z",
+        "before": [
+          {
+            "result": {
+              "duration": 25800251900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Authentication Register",
+        "description": "",
+        "id": "authentication;authentication-register;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 1344823100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10886385800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2878278400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198621600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i click link buat sekarang",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iClickLinkBuatSekarang()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8025698000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input \"akunku\" fullname, \"12345678\" telp, \"\" email, dan \"password\" pass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"akunku\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 58
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iInputFullnameTelpEmailDanPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 779999200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click \"see\" see pass register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"see\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickSeePassRegister(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1042897600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click \"ckls\" ckls syarat",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ckls\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickCklsSyarat(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 968308300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click buat akun",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.clickBuatAkun()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1111118100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I get \"error email\" result register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error email\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iGetResultRegister(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:28:59.413Z",
+        "before": [
+          {
+            "result": {
+              "duration": 28227047200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Authentication Register",
+        "description": "",
+        "id": "authentication;authentication-register;;12",
+        "after": [
+          {
+            "result": {
+              "duration": 927534100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9182334700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3411607900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183285300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i click link buat sekarang",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iClickLinkBuatSekarang()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6102429900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input \"akunku\" fullname, \"12345678\" telp, \"\" email, dan \"\" pass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"akunku\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 58
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iInputFullnameTelpEmailDanPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click \"no see\" see pass register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no see\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickSeePassRegister(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2938900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click \"no ckls\" ckls syarat",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no ckls\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickCklsSyarat(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181364300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click buat akun",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.clickBuatAkun()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 582923100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I get \"error pass\" result register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error pass\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iGetResultRegister(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:29:48.259Z",
+        "before": [
+          {
+            "result": {
+              "duration": 25803187900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Authentication Register",
+        "description": "",
+        "id": "authentication;authentication-register;;13",
+        "after": [
+          {
+            "result": {
+              "duration": 986247200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10759476900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2908882400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156274400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i click link buat sekarang",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iClickLinkBuatSekarang()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6714420600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input \"\" fullname, \"12345678\" telp, \"\" email, dan \"\" pass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 52
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iInputFullnameTelpEmailDanPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5673900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click \"no see\" see pass register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no see\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickSeePassRegister(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2006700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click \"no ckls\" ckls syarat",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no ckls\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickCklsSyarat(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 280763000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click buat akun",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.clickBuatAkun()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 603964000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I get \"error fullname\" result register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error fullname\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iGetResultRegister(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:30:36.538Z",
+        "before": [
+          {
+            "result": {
+              "duration": 27150930000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Authentication Register",
+        "description": "",
+        "id": "authentication;authentication-register;;14",
+        "after": [
+          {
+            "result": {
+              "duration": 868916900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9558091700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2531976600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224381200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i click link buat sekarang",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iClickLinkBuatSekarang()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7611223700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input \"akunku\" fullname, \"12345678\" telp, \"testing20@gmail.com\" email, dan \"\" pass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"akunku\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"testing20@gmail.com\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 77
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iInputFullnameTelpEmailDanPass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2611900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click \"no see\" see pass register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no see\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickSeePassRegister(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190334900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click \"ckls\" ckls syarat",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ckls\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.clickCklsSyarat(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184098900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click buat akun",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.clickBuatAkun()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 730340400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I get \"error pass\" result register",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error pass\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthRegisSteps.iGetResultRegister(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@Register"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:31:25.636Z",
+        "before": [
+          {
+            "result": {
+              "duration": 27684636300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Authentication Login",
+        "description": "",
+        "id": "authentication;authentication-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 972499400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9619427600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2671921800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2401157600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "input \"maylananggi@gmail.com\" email, \"password\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maylananggi@gmail.com\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.inputEmailPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 733248500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "click \"see\" see pass login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"see\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.clickSeePassLogin(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1065338300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "click button masuk",
+            "match": {
+              "location": "com.example.steps.AuthLoginSteps.clickButtonMasuk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27862979900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I get \"can login\" result login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"can login\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.iGetResultLogin(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:32:38.732Z",
+        "before": [
+          {
+            "result": {
+              "duration": 28849608500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Authentication Login",
+        "description": "",
+        "id": "authentication;authentication-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 908616700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10075036900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2419504400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MYLNAP\u0027, ip: \u0027192.168.34.45\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.16\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: D:\\TIC\\Kampus Merdeka\\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\\TIC\\Kampus Merdeka\\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}\nSession ID: caaf0525-5713-4c91-8fd1-e5a6514ea80c\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)\r\n\tat io.appium.java_client.MobileElement.execute(MobileElement.java:1)\r\n\tat io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.find(BasePageObject.java:29)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.click(BasePageObject.java:33)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.page.AuthLoginPage.setInPass(AuthLoginPage.java:23)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.AuthLoginSteps.inputEmailPassword(AuthLoginSteps.java:14)\r\n\tat ✽.input \"maylananggi@gmail.com\" email, \"\" password(file:///D:/TIC/Kampus%20Merdeka/Batch%203/Studi%20Independen/Alterra/Capstone/AutoMobile/sample-mobile-automation/src/test/resources/features/math/atuhentication.feature:37)\r\n",
+              "duration": 2245288100,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "input \"maylananggi@gmail.com\" email, \"\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maylananggi@gmail.com\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.inputEmailPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000900,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "click \"no see\" see pass login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no see\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.clickSeePassLogin(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4513700,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "click button masuk",
+            "match": {
+              "location": "com.example.steps.AuthLoginSteps.clickButtonMasuk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4529400,
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "I get \"error pass\" result login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error pass\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.iGetResultLogin(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:33:23.545Z",
+        "before": [
+          {
+            "result": {
+              "duration": 28769343600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Authentication Login",
+        "description": "",
+        "id": "authentication;authentication-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1597356700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10441425300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3373924500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3571332000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "input \"\" email, \"password\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.inputEmailPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1230899500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "click \"see\" see pass login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"see\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.clickSeePassLogin(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 876865800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "click button masuk",
+            "match": {
+              "location": "com.example.steps.AuthLoginSteps.clickButtonMasuk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1029541600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I get \"error email\" result login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error email\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.iGetResultLogin(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:34:14.513Z",
+        "before": [
+          {
+            "result": {
+              "duration": 32200157200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Authentication Login",
+        "description": "",
+        "id": "authentication;authentication-login;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 907323400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7630899000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2788390900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2973448500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "input \"\" email, \"akun201\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"akun201\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.inputEmailPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 758996800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "click \"see\" see pass login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"see\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.clickSeePassLogin(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 926780800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "click button masuk",
+            "match": {
+              "location": "com.example.steps.AuthLoginSteps.clickButtonMasuk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1309260900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I get \"error email\" result login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error email\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.iGetResultLogin(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:35:04.051Z",
+        "before": [
+          {
+            "result": {
+              "duration": 26723222700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Authentication Login",
+        "description": "",
+        "id": "authentication;authentication-login;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 920316100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8877531000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2506232600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3041793700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "input \"maylan@gmail.com\" email, \"\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maylan@gmail.com\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.inputEmailPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178732200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "click \"see\" see pass login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"see\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.clickSeePassLogin(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 695742500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "click button masuk",
+            "match": {
+              "location": "com.example.steps.AuthLoginSteps.clickButtonMasuk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MYLNAP\u0027, ip: \u0027192.168.34.45\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.16\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: D:\\TIC\\Kampus Merdeka\\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\\TIC\\Kampus Merdeka\\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}\nSession ID: b3189d26-bd93-45eb-bbb4-da8972bd4072\n*** Element info: {Using\u003daccessibility id, value\u003demail tidak boleh kosong}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)\r\n\tat io.appium.java_client.MobileBy$ByAccessibilityId.findElement(MobileBy.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.find(BasePageObject.java:29)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.isDisplayed(BasePageObject.java:46)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.page.AuthLoginPage.setErrEmail(AuthLoginPage.java:30)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.AuthLoginSteps.iGetResultLogin(AuthLoginSteps.java:40)\r\n\tat ✽.I get \"error email\" result login(file:///D:/TIC/Kampus%20Merdeka/Batch%203/Studi%20Independen/Alterra/Capstone/AutoMobile/sample-mobile-automation/src/test/resources/features/math/atuhentication.feature:40)\r\n",
+              "duration": 6399199300,
+              "status": "failed"
+            },
+            "line": 40,
+            "name": "I get \"error email\" result login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error email\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.iGetResultLogin(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:35:53.510Z",
+        "before": [
+          {
+            "result": {
+              "duration": 28254985800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Authentication Login",
+        "description": "",
+        "id": "authentication;authentication-login;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1179647200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6634051100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2520068900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3036811600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "input \"\" email, \"\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.inputEmailPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2092000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "click \"no see\" see pass login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"no see\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.clickSeePassLogin(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185302300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "click button masuk",
+            "match": {
+              "location": "com.example.steps.AuthLoginSteps.clickButtonMasuk()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 716599700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I get \"error email\" result login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"error email\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLoginSteps.iGetResultLogin(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:36:36.070Z",
+        "before": [
+          {
+            "result": {
+              "duration": 28257675800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "Authentication Login Lupa Kata Sandi",
+        "description": "",
+        "id": "authentication;authentication-login-lupa-kata-sandi;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 993866100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6602850300,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2614690000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 595025300,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "input \"maylananggi@gmail.com\" email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maylananggi@gmail.com\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLupaSandiSteps.inputEmail(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1098506200,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "click lupa pass",
+            "match": {
+              "location": "com.example.steps.AuthLupaSandiSteps.clickLupaPass()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144994100,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I get pop up lupa pass",
+            "match": {
+              "location": "com.example.steps.AuthLupaSandiSteps.iGetPopUpLupaPass()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 432829600,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "input \"maylananggi@gmail.com\" email lupa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maylananggi@gmail.com\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLupaSandiSteps.inputEmailLupa(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.Button[@content-desc\u003d\"Kirim\"] (tried for 30 second(s) with 1000 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.find(BasePageObject.java:29)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.click(BasePageObject.java:33)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.page.AuthLupaSandiPage.setFieldKirim(AuthLupaSandiPage.java:18)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.AuthLupaSandiSteps.clickActionLupaSandi(AuthLupaSandiSteps.java:37)\r\n\tat ✽.click \"kirim\" action lupa sandi(file:///D:/TIC/Kampus%20Merdeka/Batch%203/Studi%20Independen/Alterra/Capstone/AutoMobile/sample-mobile-automation/src/test/resources/features/math/atuhentication.feature:58)\r\nCaused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MYLNAP\u0027, ip: \u0027192.168.34.45\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.16\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: D:\\TIC\\Kampus Merdeka\\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\\TIC\\Kampus Merdeka\\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}\nSession ID: 27ca0819-c434-4400-b21d-7c7ab02add4d\n*** Element info: {Using\u003dxpath, value\u003d//android.widget.Button[@content-desc\u003d\"Kirim\"]}\r\n\tat jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)\r\n\tat io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.find(BasePageObject.java:29)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.click(BasePageObject.java:33)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.page.AuthLupaSandiPage.setFieldKirim(AuthLupaSandiPage.java:18)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.AuthLupaSandiSteps.clickActionLupaSandi(AuthLupaSandiSteps.java:37)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:63)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:99)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:234)\r\n\tat io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.CucumberSerenityRunner$RunCucumber.evaluate(CucumberSerenityRunner.java:262)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:40)\r\n\tat java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\r\n\tat java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)\r\n\tat java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\r\n\tat java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)\r\n\tat java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)\r\n\tat org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)\r\n\tat org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:71)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)\r\n\tat org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)\r\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)\r\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)\r\n\tat org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\r\n",
+              "duration": 30440873100,
+              "status": "failed"
+            },
+            "line": 58,
+            "name": "click \"kirim\" action lupa sandi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kirim\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLupaSandiSteps.clickActionLupaSandi(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@LupaPass"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:37:47.326Z",
+        "before": [
+          {
+            "result": {
+              "duration": 24593897900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "Authentication Login Lupa Kata Sandi",
+        "description": "",
+        "id": "authentication;authentication-login-lupa-kata-sandi;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 857639800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9266709400,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MYLNAP\u0027, ip: \u0027192.168.34.45\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.16\u0027\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: D:\\TIC\\Kampus Merdeka\\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\\TIC\\Kampus Merdeka\\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}\nSession ID: 58e4b521-c205-4ccc-9c22-6fd2bfd3bcda\n*** Element info: {Using\u003daccessibility id, value\u003dLOGIN}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)\r\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)\r\n\tat io.appium.java_client.MobileBy$ByAccessibilityId.findElement(MobileBy.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)\r\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\r\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.find(BasePageObject.java:29)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.isDisplayed(BasePageObject.java:46)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.app.page.AuthRegisterPage.setLogin(AuthRegisterPage.java:58)\r\n\tat sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.AuthRegisSteps.iAmOnTheLoginPage(AuthRegisSteps.java:23)\r\n\tat ✽.i am on the login page(file:///D:/TIC/Kampus%20Merdeka/Batch%203/Studi%20Independen/Alterra/Capstone/AutoMobile/sample-mobile-automation/src/test/resources/features/math/atuhentication.feature:53)\r\n",
+              "duration": 1561718000,
+              "status": "failed"
+            },
+            "line": 53,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "input \"maylananggi@gmail.com\" email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maylananggi@gmail.com\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLupaSandiSteps.inputEmail(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2024400,
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "click lupa pass",
+            "match": {
+              "location": "com.example.steps.AuthLupaSandiSteps.clickLupaPass()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "I get pop up lupa pass",
+            "match": {
+              "location": "com.example.steps.AuthLupaSandiSteps.iGetPopUpLupaPass()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997500,
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "input \"maylananggi@gmail.com\" email lupa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maylananggi@gmail.com\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLupaSandiSteps.inputEmailLupa(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "click \"batal\" action lupa sandi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"batal\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLupaSandiSteps.clickActionLupaSandi(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@LupaPass"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:38:23.645Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23293301000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 63,
+        "name": "Authentication Login Lupa Kata Sandi",
+        "description": "",
+        "id": "authentication;authentication-login-lupa-kata-sandi;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 970612200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7296660100,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2910169800,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 468458800,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "input \"\" email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLupaSandiSteps.inputEmail(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 678861800,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "click lupa pass",
+            "match": {
+              "location": "com.example.steps.AuthLupaSandiSteps.clickLupaPass()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111422900,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I get pop up lupa pass",
+            "match": {
+              "location": "com.example.steps.AuthLupaSandiSteps.iGetPopUpLupaPass()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281264200,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "input \"\" email lupa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLupaSandiSteps.inputEmailLupa(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6524544800,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "click \"kirim\" action lupa sandi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kirim\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLupaSandiSteps.clickActionLupaSandi(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@LupaPass"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:39:06.217Z",
+        "before": [
+          {
+            "result": {
+              "duration": 28068957900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "Authentication Login Lupa Kata Sandi",
+        "description": "",
+        "id": "authentication;authentication-login-lupa-kata-sandi;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 897585700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10034029100,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2489680200,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1306546300,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "input \"\" email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLupaSandiSteps.inputEmail(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 195651300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "click lupa pass",
+            "match": {
+              "location": "com.example.steps.AuthLupaSandiSteps.clickLupaPass()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141482000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I get pop up lupa pass",
+            "match": {
+              "location": "com.example.steps.AuthLupaSandiSteps.iGetPopUpLupaPass()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 427602800,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "input \"\" email lupa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLupaSandiSteps.inputEmailLupa(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1514052900,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "click \"batal\" action lupa sandi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"batal\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLupaSandiSteps.clickActionLupaSandi(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@LupaPass"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-22T17:39:51.314Z",
+        "before": [
+          {
+            "result": {
+              "duration": 26282382100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 65,
+        "name": "Authentication Login Lupa Kata Sandi",
+        "description": "",
+        "id": "authentication;authentication-login-lupa-kata-sandi;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 964955400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9871910500,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "i open app",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iOpenApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2734337500,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "i am on the login page",
+            "match": {
+              "location": "com.example.steps.AuthRegisSteps.iAmOnTheLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1147886100,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "input \"abcdefghijk\" email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcdefghijk\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLupaSandiSteps.inputEmail(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 732937100,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "click lupa pass",
+            "match": {
+              "location": "com.example.steps.AuthLupaSandiSteps.clickLupaPass()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136100700,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I get pop up lupa pass",
+            "match": {
+              "location": "com.example.steps.AuthLupaSandiSteps.iGetPopUpLupaPass()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1166576900,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "input \"abcdefghijk\" email lupa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcdefghijk\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLupaSandiSteps.inputEmailLupa(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2853667900,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "click \"kirim\" action lupa sandi",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kirim\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.example.steps.AuthLupaSandiSteps.clickActionLupaSandi(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Auth"
+          },
+          {
+            "name": "@LupaPass"
           }
         ]
       }

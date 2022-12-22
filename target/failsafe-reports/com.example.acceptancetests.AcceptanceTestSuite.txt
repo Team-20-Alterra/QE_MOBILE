@@ -1,4 +1,55 @@
 -------------------------------------------------------------------------------
 Test set: com.example.acceptancetests.AcceptanceTestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 105.836 s - in com.example.acceptancetests.AcceptanceTestSuite
+Tests run: 24, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 1,194.591 s <<< FAILURE! - in com.example.acceptancetests.AcceptanceTestSuite
+Authentication.Authentication Register #3  Time elapsed: 48.292 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: c006d374-9c7a-4d07-aa43-171f13b0dec2
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText[1]}
+
+Authentication.Authentication Login #2  Time elapsed: 44.813 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: caaf0525-5713-4c91-8fd1-e5a6514ea80c
+
+Authentication.Authentication Login #5  Time elapsed: 49.454 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: b3189d26-bd93-45eb-bbb4-da8972bd4072
+*** Element info: {Using=accessibility id, value=email tidak boleh kosong}
+
+Authentication.Authentication Login Lupa Kata Sandi #1  Time elapsed: 71.254 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.Button[@content-desc="Kirim"] (tried for 30 second(s) with 1000 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 27ca0819-c434-4400-b21d-7c7ab02add4d
+*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc="Kirim"]}
+
+Authentication.Authentication Login Lupa Kata Sandi #2  Time elapsed: 36.323 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 58e4b521-c205-4ccc-9c22-6fd2bfd3bcda
+*** Element info: {Using=accessibility id, value=LOGIN}
+
