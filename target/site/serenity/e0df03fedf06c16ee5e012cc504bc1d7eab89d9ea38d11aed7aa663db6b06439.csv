@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Pay Transaksi with Rek Bank","Pay transaksi status Menunggu Konfirmasi with Rek BNI","ERROR","2022-12-23T19:28:36.5549092+07:00[Asia/Bangkok]","0.0","32.93"
+"Pay Transaksi with Rek Bank","Pay transaksi status Menunggu Konfirmasi with Rek BRI","ERROR","2022-12-23T19:29:09.520628+07:00[Asia/Bangkok]","0.0","33.84"
+"Pay Transaksi with Rek Bank","Pay transaksi status Menunggu Konfirmasi with Rek BCA","ERROR","2022-12-23T19:29:43.4640785+07:00[Asia/Bangkok]","0.0","41.28"
+"Pay Transaksi with Rek Bank","Pay transaksi status Menunggu Konfirmasi with Rek Mandiri","ERROR","2022-12-23T19:30:24.7798326+07:00[Asia/Bangkok]","0.0","44.49"
+"Pay Transaksi with Rek Bank","Pay transaksi status Menunggu Konfirmasi with Rek BSI","ERROR","2022-12-23T19:31:09.2967074+07:00[Asia/Bangkok]","0.0","49.47"
+"Pay Transaksi with Rek Bank","Pay transaksi status Menunggu Konfirmasi with Rek Jenius","ERROR","2022-12-23T19:31:58.9491601+07:00[Asia/Bangkok]","0.0","49.07"
+"Pay Transaksi with Rek Bank","Pay transaksi status Menunggu Konfirmasi with Rek CIMB","ERROR","2022-12-23T19:32:48.6223824+07:00[Asia/Bangkok]","0.0","40.56"

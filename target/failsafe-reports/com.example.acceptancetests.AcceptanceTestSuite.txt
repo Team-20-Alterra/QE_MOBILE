@@ -1,0 +1,133 @@
+-------------------------------------------------------------------------------
+Test set: com.example.acceptancetests.AcceptanceTestSuite
+-------------------------------------------------------------------------------
+Tests run: 42, Failures: 0, Errors: 21, Skipped: 0, Time elapsed: 2,087.397 s <<< FAILURE! - in com.example.acceptancetests.AcceptanceTestSuite
+Authentication.Authentication Register #14  Time elapsed: 96.592 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.AccessibilityId: Enter min. 8 digit (tried for 30 second(s) with 1000 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MYLNAP', ip: '192.168.130.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6e11a5a1-eec7-4f19-899f-88181663cb69
+*** Element info: {Using=accessibility id, value=Enter min. 8 digit}
+
+Authentication.Authentication Login #1  Time elapsed: 77.18 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MYLNAP', ip: '192.168.130.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: d0023170-79d3-415b-a055-ef26ff3b7484
+*** Element info: {Using=accessibility id, value=Artikel}
+
+Authentication.Authentication Login #5  Time elapsed: 78.075 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.AccessibilityId: email tidak boleh kosong (tried for 30 second(s) with 1000 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MYLNAP', ip: '192.168.130.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: b3b0a73a-8b82-4c2b-a1cf-95fb35bc1744
+*** Element info: {Using=accessibility id, value=email tidak boleh kosong}
+
+Authentication.Authentication Login Lupa Kata Sandi #3  Time elapsed: 52.479 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MYLNAP', ip: '192.168.130.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 97313a32-bc67-453a-bfb9-42e553590e46
+*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc="Kirim"]}
+
+Pay Transaksi with Rek Bank.Pay transaksi status Menunggu Konfirmasi with Rek BNI  Time elapsed: 33.057 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.example.steps.StatusPaySteps - this class doesn't have an empty or a page enabled constructor"
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Must supply a not empty locator value.
+
+Pay Transaksi with Rek Bank.Pay transaksi status Menunggu Konfirmasi with Rek BRI  Time elapsed: 33.885 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.example.steps.StatusPaySteps - this class doesn't have an empty or a page enabled constructor"
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Must supply a not empty locator value.
+
+Pay Transaksi with Rek Bank.Pay transaksi status Menunggu Konfirmasi with Rek BCA  Time elapsed: 41.361 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.example.steps.StatusPaySteps - this class doesn't have an empty or a page enabled constructor"
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Must supply a not empty locator value.
+
+Pay Transaksi with Rek Bank.Pay transaksi status Menunggu Konfirmasi with Rek Mandiri  Time elapsed: 44.527 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.example.steps.StatusPaySteps - this class doesn't have an empty or a page enabled constructor"
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Must supply a not empty locator value.
+
+Pay Transaksi with Rek Bank.Pay transaksi status Menunggu Konfirmasi with Rek BSI  Time elapsed: 49.516 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.example.steps.StatusPaySteps - this class doesn't have an empty or a page enabled constructor"
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Must supply a not empty locator value.
+
+Pay Transaksi with Rek Bank.Pay transaksi status Menunggu Konfirmasi with Rek Jenius  Time elapsed: 49.201 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.example.steps.StatusPaySteps - this class doesn't have an empty or a page enabled constructor"
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Must supply a not empty locator value.
+
+Pay Transaksi with Rek Bank.Pay transaksi status Menunggu Konfirmasi with Rek CIMB  Time elapsed: 41.156 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.example.steps.StatusPaySteps - this class doesn't have an empty or a page enabled constructor"
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Must supply a not empty locator value.
+
+Pay Transaksi with Virtual Akun.Pay transaksi status Menunggu Konfirmasi with BNI VA  Time elapsed: 30.091 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.example.steps.StatusPaySteps - this class doesn't have an empty or a page enabled constructor"
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Must supply a not empty locator value.
+
+Pay Transaksi with Virtual Akun.Pay transaksi status Menunggu Konfirmasi with BCA VA  Time elapsed: 28.808 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.example.steps.StatusPaySteps - this class doesn't have an empty or a page enabled constructor"
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Must supply a not empty locator value.
+
+Pay Transaksi with Virtual Akun.Pay transaksi status Menunggu Konfirmasi with BRI VA  Time elapsed: 27.936 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.example.steps.StatusPaySteps - this class doesn't have an empty or a page enabled constructor"
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Must supply a not empty locator value.
+
+Pay Transaksi with Virtual Akun.Pay transaksi status Menunggu Konfirmasi with Mandiri VA  Time elapsed: 28.535 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.example.steps.StatusPaySteps - this class doesn't have an empty or a page enabled constructor"
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Must supply a not empty locator value.
+
+Pay Transaksi with Virtual Akun.Pay transaksi status Menunggu Konfirmasi with CIMB VA  Time elapsed: 39.348 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.example.steps.StatusPaySteps - this class doesn't have an empty or a page enabled constructor"
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Must supply a not empty locator value.
+
+Bill page.See all Transaksi  Time elapsed: 43.121 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.example.steps.StatusPaySteps - this class doesn't have an empty or a page enabled constructor"
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Must supply a not empty locator value.
+
+Bill page.See transaksi status Gagal  Time elapsed: 31.668 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.example.steps.StatusPaySteps - this class doesn't have an empty or a page enabled constructor"
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Must supply a not empty locator value.
+
+Bill page.See transaksi status Dalam Proses  Time elapsed: 30.736 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.example.steps.StatusPaySteps - this class doesn't have an empty or a page enabled constructor"
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Must supply a not empty locator value.
+
+Bill page.See transaksi status Menunggu Konfirmasi  Time elapsed: 26.345 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.example.steps.StatusPaySteps - this class doesn't have an empty or a page enabled constructor"
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Must supply a not empty locator value.
+
+Bill page.See all Selesai  Time elapsed: 28.126 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: Failed to instantiate class com.example.steps.StatusPaySteps - this class doesn't have an empty or a page enabled constructor"
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: java.lang.IllegalArgumentException: Must supply a not empty locator value.
+

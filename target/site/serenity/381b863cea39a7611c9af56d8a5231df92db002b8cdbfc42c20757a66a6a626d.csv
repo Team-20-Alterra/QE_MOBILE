@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Pay Transaksi with Virtual Akun","Pay transaksi status Menunggu Konfirmasi with BNI VA","ERROR","2022-12-23T19:33:29.2377171+07:00[Asia/Bangkok]","0.0","30.04"
+"Pay Transaksi with Virtual Akun","Pay transaksi status Menunggu Konfirmasi with BCA VA","ERROR","2022-12-23T19:33:59.3099885+07:00[Asia/Bangkok]","0.0","28.78"
+"Pay Transaksi with Virtual Akun","Pay transaksi status Menunggu Konfirmasi with BRI VA","ERROR","2022-12-23T19:34:28.1117824+07:00[Asia/Bangkok]","0.0","27.92"
+"Pay Transaksi with Virtual Akun","Pay transaksi status Menunggu Konfirmasi with Mandiri VA","ERROR","2022-12-23T19:34:56.0505686+07:00[Asia/Bangkok]","0.0","28.52"
+"Pay Transaksi with Virtual Akun","Pay transaksi status Menunggu Konfirmasi with CIMB VA","ERROR","2022-12-23T19:35:24.5847625+07:00[Asia/Bangkok]","0.0","39.3"

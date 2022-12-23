@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Bill page","See all Transaksi","ERROR","2022-12-23T19:36:04.4450934+07:00[Asia/Bangkok]","0.0","42.6"
+"Bill page","See transaksi status Gagal","ERROR","2022-12-23T19:36:47.116663+07:00[Asia/Bangkok]","0.0","31.63"
+"Bill page","See transaksi status Dalam Proses","ERROR","2022-12-23T19:37:18.7764574+07:00[Asia/Bangkok]","0.0","30.71"
+"Bill page","See transaksi status Menunggu Konfirmasi","ERROR","2022-12-23T19:37:49.506378+07:00[Asia/Bangkok]","0.0","26.32"
+"Bill page","See all Selesai","ERROR","2022-12-23T19:38:15.9065379+07:00[Asia/Bangkok]","0.0","28.05"
