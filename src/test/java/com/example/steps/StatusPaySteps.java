@@ -17,7 +17,7 @@ public class StatusPaySteps {
     public void iHavedLogin() {
         registerPage.seeGinap();
         registerPage.seeNext1();
-        registerPage.setSeeLandPg2();
+//        registerPage.setSeeLandPg2();
         registerPage.seeNext2();
         registerPage.mulai();
         loginPage.setInEmail("maylananggi@gmail.com");

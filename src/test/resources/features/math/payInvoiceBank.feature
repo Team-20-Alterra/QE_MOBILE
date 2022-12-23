@@ -4,7 +4,8 @@ Feature: Pay Transaksi with Rek Bank
   So I can pay transaksi
 
   Scenario: Pay transaksi status Menunggu Konfirmasi with Rek BNI
-    Given i haved login
+    Given i open app
+    And i haved login
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi
@@ -21,7 +22,8 @@ Feature: Pay Transaksi with Rek Bank
     And click download invoice
 
   Scenario: Pay transaksi status Menunggu Konfirmasi with Rek BRI
-    Given i haved login
+    Given i open app
+    And i haved login
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi
@@ -38,7 +40,8 @@ Feature: Pay Transaksi with Rek Bank
     And click download invoice
 
   Scenario: Pay transaksi status Menunggu Konfirmasi with Rek BCA
-    Given i haved login
+    Given i open app
+    And i haved login
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi
@@ -55,7 +58,8 @@ Feature: Pay Transaksi with Rek Bank
     And click download invoice
 
   Scenario: Pay transaksi status Menunggu Konfirmasi with Rek Mandiri
-    Given i haved login
+    Given i open app
+    And i haved login
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi
@@ -72,7 +76,8 @@ Feature: Pay Transaksi with Rek Bank
     And click download invoice
 
   Scenario: Pay transaksi status Menunggu Konfirmasi with Rek BSI
-    Given i haved login
+    Given i open app
+    And i haved login
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi
@@ -89,7 +94,8 @@ Feature: Pay Transaksi with Rek Bank
     And click download invoice
 
   Scenario: Pay transaksi status Menunggu Konfirmasi with Rek Jenius
-    Given i haved login
+    Given i open app
+    And i haved login
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi
@@ -106,7 +112,8 @@ Feature: Pay Transaksi with Rek Bank
     And click download invoice
 
   Scenario: Pay transaksi status Menunggu Konfirmasi with Rek CIMB
-    Given i haved login
+    Given i open app
+    And i haved login
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi

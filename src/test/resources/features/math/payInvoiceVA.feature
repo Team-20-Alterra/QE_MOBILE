@@ -4,7 +4,8 @@ Feature: Pay Transaksi with Virtual Akun
   So I can pay transaksi
 
   Scenario: Pay transaksi status Menunggu Konfirmasi with BNI VA
-    Given i haved login
+    Given i open app
+    And i haved login
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi
@@ -20,7 +21,8 @@ Feature: Pay Transaksi with Virtual Akun
     And click download invoice
 
   Scenario: Pay transaksi status Menunggu Konfirmasi with BCA VA
-    Given i haved login
+    Given i open app
+    And i haved login
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi
@@ -36,7 +38,8 @@ Feature: Pay Transaksi with Virtual Akun
     And click download invoice
 
   Scenario: Pay transaksi status Menunggu Konfirmasi with BRI VA
-    Given i haved login
+    Given i open app
+    And i haved login
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi
@@ -52,7 +55,8 @@ Feature: Pay Transaksi with Virtual Akun
     And click download invoice
 
   Scenario: Pay transaksi status Menunggu Konfirmasi with Mandiri VA
-    Given i haved login
+    Given i open app
+    And i haved login
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi
@@ -68,7 +72,8 @@ Feature: Pay Transaksi with Virtual Akun
     And click download invoice
 
   Scenario: Pay transaksi status Menunggu Konfirmasi with CIMB VA
-    Given i haved login
+    Given i open app
+    And i haved login
     And click button bill
     And on the Transaksi page
     And see status Menunggu Konfirmasi

@@ -15,52 +15,52 @@ Feature: Authentication
     And click buat akun
     Then I get "<result>" result register
     Examples:
-  | fullname   | notelp     | email                | pass     | seePass | cklsSyrt   | result         |
-#  | akul     | 12345678   | kamu12@gmail.com  | password | see    | ckls       | can regis      |
-#  | akul     | 12345678   | kamu12@gmail.com  | password | see    | ckls       | error regis    |
-#  |            |            |                      |          | no see | no ckls    | cant regis     |
-#  |            | 12345678   | testing20@gmail.com  | password | see    | ckls       | error fullname |
-#  |            |            | testing20@gmail.com  | password | see    | ckls       | error notelp   |
-#  |            |            |                      | password | see    | no ckls    | error email    |
-#  | akunku     |            | testing20@gmail.com  | password | see    | no ckls    | error notelp   |
-#  | akunku     |            |                      | password | see    | ckls       | error notelp   |
-#  | akunku     |            |                      |          | no see | no ckls    | error email    |
-#  | akunku     | 12345678   |                      | password | see    | ckls       | error email    |
-#  | akunku     | 12345678   |                      |          | no see | no ckls    | error pass     |
-#  |            | 12345678   |                      |          | no see | no ckls    | error fullname |
-#  | akunku     | 12345678   | testing20@gmail.com  |          | no see | ckls       | error pass     |
-  | akunku     | 123456abc  | testing20@gmail.com  | password | see    | ckls       | error notelp   |
+  | fullname   | notelp     | email                | pass     | seePass| cklsSyrt   | result         |
+  | testing    | 12345678   | testing20@gmail.com  | password | see    | ckls       | can regis      |
+  | testing    | 12345678   | testing20@gmail.com  | password | see    | ckls       | error regis    |
+  |            |            |                      |          | no see | no ckls    | cant regis     |
+  |            | 12345678   | testing20@gmail.com  | password | see    | ckls       | error fullname |
+  |            |            | testing20@gmail.com  | password | see    | ckls       | error notelp   |
+  |            |            |                      | password | see    | no ckls    | error email    |
+  | testing    |            | testing20@gmail.com  | password | see    | no ckls    | error notelp   |
+  | testing    |            |                      | password | see    | ckls       | error notelp   |
+  | testing    |            |                      |          | no see | no ckls    | error email    |
+  | testing    | 12345678   |                      | password | see    | ckls       | error email    |
+  | testing    | 12345678   |                      |          | no see | no ckls    | error pass     |
+  |            | 12345678   |                      |          | no see | no ckls    | error fullname |
+  | testing    | 12345678   | testing20@gmail.com  |          | no see | ckls       | error pass     |
+  | testing    | 123456abc  | testing20@gmail.com  | password | see    | ckls       | error notelp   |
 
-#  @Login
-#  Scenario Outline: Authentication Login
-#   Given i open app
-#   And i am on the login page
-#   When input "<email>" email, "<pass>" password
-#   And click "<seePass>" see pass login
-#   And click button masuk
-#   Then I get "<result>" result login
-#   Examples:
-#   | email                  | pass          | seePass       |  result      |
-#   | maylananggi@gmail.com  | password      | see           | can login    |
-#   | maylananggi@gmail.com  |               | no see        | error pass   |
-#   |                        | password      | see           | error email  |
-#   |                        | akun201       | see           | error email  |
-#   | maylan@gmail.com       |               | see           | error email  |
-#   |                        |               | no see        | error email  |
-#
-#   @LupaPass
-#   Scenario Outline: Authentication Login Lupa Kata Sandi
-#    Given i open app
-#    And i am on the login page
-#    When input "<email>" email
-#    And click lupa pass
-#    And I get pop up lupa pass
-#    Then input "<email>" email lupa
-#    And click "<action>" action lupa sandi
-#    Examples:
-#      | email                  | action |
-#      | maylananggi@gmail.com  | kirim  |
-#      | maylananggi@gmail.com  | batal  |
-#      |                        | kirim  |
-#      |                        | batal  |
-#      | abcdefghijk            | kirim  |
+  @Login
+  Scenario Outline: Authentication Login
+   Given i open app
+   And i am on the login page
+   When input "<email>" email, "<pass>" password
+   And click "<seePass>" see pass login
+   And click button masuk
+   Then I get "<result>" result login
+   Examples:
+   | email                  | pass          | seePass       |  result      |
+   | maylananggi@gmail.com  | password      | see           | can login    |
+   | maylananggi@gmail.com  |               | no see        | error pass   |
+   |                        | password      | see           | error email  |
+   |                        | akun201       | see           | error email  |
+   | maylan@gmail.com       |               | see           | error email  |
+   |                        |               | no see        | error email  |
+
+   @LupaPass
+   Scenario Outline: Authentication Login Lupa Kata Sandi
+    Given i open app
+    And i am on the login page
+    When input "<email>" email
+    And click lupa pass
+    And I get pop up lupa pass
+    Then input "<email>" email lupa
+    And click "<action>" action lupa sandi
+    Examples:
+      | email                  | action |
+      | maylananggi@gmail.com  | kirim  |
+      | maylananggi@gmail.com  | batal  |
+      |                        | kirim  |
+      |                        | batal  |
+      | abcdefghijk            | kirim  |
