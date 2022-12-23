@@ -4,12 +4,12 @@ import com.example.app.base.BasePageObject;
 import io.appium.java_client.MobileBy;
 import org.openqa.selenium.By;
 
-public class StatusPay extends BasePageObject {
+public class StatusPayPage extends BasePageObject {
 
-    private By buttonBill = MobileBy.AccessibilityId("");
-    private By tabTransaksi = MobileBy.AccessibilityId("");
-    private By tabSelesai = MobileBy.AccessibilityId("");
-    private By seeAllTransak = MobileBy.AccessibilityId("");
+    private By buttonBill = MobileBy.AccessibilityId("Bill Tab 2 of 3");
+    private By tabTransaksi = MobileBy.AccessibilityId("Transaksi Tab 1 of 2");
+    private By tabSelesai = MobileBy.AccessibilityId("Selesai Tab 2 of 2");
+    private By seeAllTransak = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[3]/android.view.View/android.view.View/android.view.View/android.view.View");
     private By clckFilter = MobileBy.AccessibilityId("");
     private By filterGagal = MobileBy.AccessibilityId("");
     private By filterDalamProses = MobileBy.AccessibilityId("");

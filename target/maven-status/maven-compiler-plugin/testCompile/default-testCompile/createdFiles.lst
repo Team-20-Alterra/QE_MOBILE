@@ -1,8 +1,8 @@
 com\example\steps\PayInvoiceBankSteps.class
 com\example\acceptancetests\AcceptanceTestSuite.class
-com\example\steps\StatusPay.class
 com\example\steps\PayInvoiceVaSteps.class
 com\example\steps\AuthRegisSteps.class
 com\example\steps\AuthLoginSteps.class
 com\example\steps\AuthLupaSandiSteps.class
 com\example\hook\AndroidDriverHook.class
+com\example\steps\StatusPaySteps.class

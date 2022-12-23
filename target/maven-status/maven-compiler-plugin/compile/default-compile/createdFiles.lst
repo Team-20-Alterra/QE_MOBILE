@@ -1,7 +1,7 @@
 com\example\app\page\payInvoiceVAPage.class
 com\example\app\page\AuthRegisterPage.class
 com\example\app\page\PayInvoiceBankPage.class
-com\example\app\page\StatusPay.class
+com\example\app\page\StatusPayPage.class
 com\example\app\page\AuthLoginPage.class
 com\example\app\drivers\AndroidDriverInit.class
 com\example\app\base\BasePageObject.class

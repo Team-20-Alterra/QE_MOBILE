@@ -68,6 +68,9 @@ public class AuthRegisSteps {
                 break;
             case "cant regis":
                 registerPage.setErrFName();
+                registerPage.setErrNoTelp();
+                registerPage.setErrEmail();
+                registerPage.setErrPass();
                 break;
             case "error fullname":
                 registerPage.setErrFName();

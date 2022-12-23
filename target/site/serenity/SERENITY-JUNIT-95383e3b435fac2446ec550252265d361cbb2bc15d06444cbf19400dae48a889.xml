@@ -1,119 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="5" failures="0" name="Authentication" skipped="0" tests="24" time="1191.12" timestamp="2022-12-23 12:20:46"><testcase name="Authentication Register"><error message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}&#10;Session ID: c006d374-9c7a-4d07-aa43-171f13b0dec2&#10;*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText[1]}&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.WebDriverException">An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
-Session ID: c006d374-9c7a-4d07-aa43-171f13b0dec2
-*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText[1]}
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: AndroidDriver</error><system-err>An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
-Session ID: c006d374-9c7a-4d07-aa43-171f13b0dec2
-*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.ScrollView/android.widget.EditText[1]}
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: AndroidDriver&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Authentication" skipped="0" tests="1" time="4.04" timestamp="2022-12-23 03:55:38"><testcase name="Authentication Register"><error message="Connection refused: connect" type="java.net.ConnectException">Connection refused: connect</error><system-err>Connection refused: connect&#13;
+okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)&#13;
+okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)&#13;
+okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)&#13;
+okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)&#13;
+okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)&#13;
+okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)&#13;
+okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)&#13;
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)&#13;
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)&#13;
+okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)&#13;
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)&#13;
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)&#13;
+okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)&#13;
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)&#13;
+okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)&#13;
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)&#13;
+okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)&#13;
+okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)&#13;
+okhttp3.RealCall.execute(RealCall.java:77)&#13;
+io.appium.java_client.remote.AppiumCommandExecutor.lambda$1(AppiumCommandExecutor.java:162)&#13;
+io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)&#13;
 io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)&#13;
 io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)&#13;
 io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#13;
 io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)&#13;
-io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)&#13;
-io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;
-io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;
-io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)&#13;
-io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)&#13;
-io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)&#13;
-io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)&#13;
-io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;
-io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;
-sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.find(BasePageObject.java:29)&#13;
-sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.click(BasePageObject.java:33)&#13;
-sample.mobile.automation@1.0-SNAPSHOT/com.example.app.page.AuthRegisterPage.inputData(AuthRegisterPage.java:47)&#13;
-sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.AuthRegisSteps.iInputFullnameTelpEmailDanPass(AuthRegisSteps.java:33)&#13;
-✽.I input "" fullname, "" telp, "" email, dan "" pass(file:///D:/TIC/Kampus%20Merdeka/Batch%203/Studi%20Independen/Alterra/Capstone/AutoMobile/sample-mobile-automation/src/test/resources/features/math/atuhentication.feature:12)&#13;
-</system-err></testcase><testcase name="Authentication Login"><error message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}&#10;Session ID: caaf0525-5713-4c91-8fd1-e5a6514ea80c&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.WebDriverException">An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
-Session ID: caaf0525-5713-4c91-8fd1-e5a6514ea80c
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: AndroidDriver</error><system-err>An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
-Session ID: caaf0525-5713-4c91-8fd1-e5a6514ea80c
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: AndroidDriver&#13;
-io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)&#13;
-io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)&#13;
-io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#13;
-io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)&#13;
-io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)&#13;
-io.appium.java_client.MobileElement.execute(MobileElement.java:1)&#13;
-io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)&#13;
-sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.find(BasePageObject.java:29)&#13;
-sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.click(BasePageObject.java:33)&#13;
-sample.mobile.automation@1.0-SNAPSHOT/com.example.app.page.AuthLoginPage.setInPass(AuthLoginPage.java:23)&#13;
-sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.AuthLoginSteps.inputEmailPassword(AuthLoginSteps.java:14)&#13;
-✽.input "maylananggi@gmail.com" email, "" password(file:///D:/TIC/Kampus%20Merdeka/Batch%203/Studi%20Independen/Alterra/Capstone/AutoMobile/sample-mobile-automation/src/test/resources/features/math/atuhentication.feature:37)&#13;
-</system-err></testcase><testcase name="Authentication Login Lupa Kata Sandi"><error message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 27ca0819-c434-4400-b21d-7c7ab02add4d&#10;*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc=&quot;Kirim&quot;]}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.NoSuchElementException">An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
-Session ID: 27ca0819-c434-4400-b21d-7c7ab02add4d
-*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc="Kirim"]}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: AndroidDriver</error><system-err>An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: D:\TIC\Kampus Merdeka\Batch..., appPackage: com.example.geinterra_apps, automationName: UIAutomator2, databaseEnabled: false, desired: {app: D:\TIC\Kampus Merdeka\Batch..., automationName: UIAutomator2, platformName: android, platformVersion: 12, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: V2027, deviceName: 5c4a3aa1, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 5c4a3aa1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 56, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1414, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
-Session ID: 27ca0819-c434-4400-b21d-7c7ab02add4d
-*** Element info: {Using=xpath, value=//android.widget.Button[@content-desc="Kirim"]}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MYLNAP', ip: '192.168.34.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: AndroidDriver&#13;
-io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)&#13;
-io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)&#13;
-io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#13;
-io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)&#13;
-io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)&#13;
-io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;
-io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;
-io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)&#13;
-io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)&#13;
-io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)&#13;
-io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)&#13;
-io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;
-io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;
-sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.find(BasePageObject.java:29)&#13;
-sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.click(BasePageObject.java:33)&#13;
-sample.mobile.automation@1.0-SNAPSHOT/com.example.app.page.AuthLupaSandiPage.setFieldKirim(AuthLupaSandiPage.java:18)&#13;
-sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.AuthLupaSandiSteps.clickActionLupaSandi(AuthLupaSandiSteps.java:37)&#13;
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)&#13;
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:89)&#13;
+io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:99)&#13;
+io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:97)&#13;
+sample.mobile.automation@1.0-SNAPSHOT/com.example.app.drivers.AndroidDriverInit.initialization(AndroidDriverInit.java:23)&#13;
+sample.mobile.automation@1.0-SNAPSHOT/com.example.hook.AndroidDriverHook.before(AndroidDriverHook.java:10)&#13;
 io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
 io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
 io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
-io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
-io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
-io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)&#13;
+io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)&#13;
+io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)&#13;
 io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)&#13;
 io.cucumber.core.runner.TestStep.run(TestStep.java:63)&#13;
-io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)&#13;
-io.cucumber.core.runner.TestCase.run(TestCase.java:99)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:95)&#13;
 io.cucumber.core.runner.Runner.runPickle(Runner.java:71)&#13;
 io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
 io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
